@@ -1,0 +1,22 @@
+.avatar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar__photo {
+  width: 200px;
+  border: 2px solid var(--color-section-logo-bg);
+  border-radius: 50%;
+}
+
+.avatar__title, 
+.avatar__subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
