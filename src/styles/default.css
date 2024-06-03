@@ -1,0 +1,100 @@
+:root {
+  --color-nav-text: #ffffff;
+  --color-section-title-text: #ffffff;
+  --color-base-text: #38454f;
+  --color-section-logo-bg: #457d9f;
+  --color-section-title-bg: #38454f;
+  --color-skills-square-empty: #3eb5f1;
+  --color-skills-square-checked: #38454f;
+  --color-decor-line: #38454f;
+}
+
+*, 
+*:focus-visible, 
+*::before, 
+*::after {
+  outline: none;
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*::selection {
+  color: var(--color-nav-text);
+  background-color: var(--color-base-text);
+}
+
+html {
+  min-width: 430px;
+  min-height: 100vh;
+  height: 100%;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-base-text);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: default;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'OpenSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+button, 
+input {
+  display: block;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+h1, 
+h2, 
+h3, 
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img, 
+svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+ul, 
+ol, 
+li {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
