@@ -1,0 +1,25 @@
+.language__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.language__item {
+  display: list-item;
+  margin-left: 30px;
+}
+
+.language__title {
+  font-weight: bold;
+}
+
+
+@media (max-width: 1024px) {
+
+  .language__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+}
