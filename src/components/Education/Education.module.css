@@ -1,0 +1,14 @@
+.education__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.education__item {
+  display: list-item;
+  margin-left: 30px;
+}
+
+.education__title {
+  font-weight: bold;
+}
