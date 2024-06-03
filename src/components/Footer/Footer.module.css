@@ -1,0 +1,29 @@
+.footer {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: center top;
+}
+
+.copyright {
+  font-size: 16px;
+  color: var(--color-nav-text);
+}
+
+.copyright span {
+  text-transform: capitalize;
+}
+
+
+@media (max-width: 1200px) {
+
+  .footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}
