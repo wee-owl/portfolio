@@ -1,0 +1,1 @@
+export const SCREEN_1024 = 1024;
