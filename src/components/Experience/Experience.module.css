@@ -1,0 +1,20 @@
+.experience__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experience__position {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experience__title {
+  text-decoration: underline;
+}
+
+.experience__text {
+  display: list-item;
+  margin-left: 30px;
+  text-align: justify;
+}
