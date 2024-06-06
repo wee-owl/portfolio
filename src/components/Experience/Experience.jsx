@@ -30,7 +30,7 @@ function Experience({data}) {
                     item.text.map((text, j) => {
                         return (
                           <li key={j} className={style.experience__text} style={{listStyleImage: `url(${icon})`}}>
-                            {text}
+                            <p>{text}</p>
                           </li>
                         )
                     })
