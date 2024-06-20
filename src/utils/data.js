@@ -40,82 +40,82 @@ const data = [
       {
         title: "railway booking system",
         cover: require("#assets/cover-railway.png"),
-        link: "https://wee-owl.github.io/fe-diploma/"
+        link: "https://github.com/wee-owl/fe-diploma"
       },
       {
         title: "chaos organizer",
         cover: require("#assets/cover-organizer.png"),
-        link: "https://wee-owl.github.io/chaos-organizer/"
+        link: "https://github.com/wee-owl/chaos-organizer"
       },
       {
         title: "like trello",
         cover: require("#assets/cover-trello.png"),
-        link: "https://wee-owl.github.io/ahj_dnd_like_trello/"
+        link: "https://github.com/wee-owl/ahj_dnd_like_trello"
       },
       {
         title: "help desk",
         cover: require("#assets/cover-helpdesk.png"),
-        link: "https://wee-owl.github.io/ahj_http_helpdesk/"
+        link: "https://github.com/wee-owl/ahj_http_helpdesk"
       },
       {
         title: "goblin game",
         cover: require("#assets/cover-goblin.png"),
-        link: "https://wee-owl.github.io/ahj_event_goblin-game/"
+        link: "https://github.com/wee-owl/ahj_event_goblin-game"
       },
       {
         title: "tetris",
         cover: require("#assets/cover-tetris.png"),
-        link: "https://wee-owl.github.io/Tetris/"
+        link: "https://github.com/wee-owl/Tetris"
       },
       {
         title: "your meal",
         cover: require("#assets/cover-yourmeal.png"),
-        link: "https://wee-owl.github.io/your_meal/"
+        link: "https://github.com/wee-owl/your_meal"
       },
       {
         title: "songbird quiz",
         cover: require("#assets/cover-songbird.png"),
-        link: "https://wee-owl.github.io/quiz/index.html"
+        link: "https://github.com/wee-owl/quiz"
       },
       {
         title: "photo stream",
         cover: require("#assets/cover-photostream.png"),
-        link: "https://photo-stream-wee-owl.vercel.app/"
+        link: "https://github.com/wee-owl/Photo-Stream"
       },
       {
         title: "pomodoro",
         cover: require("#assets/cover-pomodoro.png"),
-        link: "https://wee-owl.github.io/pomodoro/"
+        link: "https://github.com/wee-owl/pomodoro"
       },
       {
         title: "online zoo",
         cover: require("#assets/cover-zoo.png"),
-        link: "https://wee-owl.github.io/online-zoo/main.html"
+        link: "https://github.com/wee-owl/online-zoo"
       },
       {
         title: "barbershop",
         cover: require("#assets/cover-barbershop.png"),
-        link: "https://wee-owl.github.io/barbershop/"
+        link: "https://github.com/wee-owl/barbershop"
       },
       {
         title: "money exchange service",
         cover: require("#assets/cover-moneyexchange.png"),
-        link: "https://wee-owl.github.io/Money_exchange_service/"
+        link: "https://github.com/wee-owl/Money_exchange_service"
       },
       {
         title: "shelter",
         cover: require("#assets/cover-shelter.png"),
-        link: "https://wee-owl.github.io/shelter/shelter/main.html"
+        link: "https://github.com/wee-owl/shelter"
       },
       {
         title: "noemi",
         cover: require("#assets/cover-noemi.png"),
-        link: "https://wee-owl.github.io/Noemi/"
+        link: "https://github.com/wee-owl/noemi"
       },
       {
         title: "travel portal",
         cover: require("#assets/cover-travelportal.png"),
-        link: "https://wee-owl.github.io/TravelPortal/"
+        link: "https://github.com/wee-owl/TravelPortal"
       },
     ]
   },
@@ -143,10 +143,10 @@ const data = [
         company: "АО «Концерн «Моринсис-Агат», г. Москва",
         title: "Задачи/достижения",
         text: [
-          "разработка технической документации и ведение проектов в государственной структуре оборонно-промышленного комплекса (разработала и ввела в эксплуатацию 48 документов по 6 проектам в соответствии с ГОСТ, РД и ЕСКД (ТЗ, ТУ, РЭ, ПС, УТП и т.д.)",
-          "комплексная работа с организациями-заказчиками и организациями-подрядчиками по разработке и корректировке ТЗ, анализу и планированию трудозатрат на выполнение работ",
-          "организация и проведение комплексных технических экспертиз КД и ТД в соответствии с ГОСТ и РВ (организовала и провела 12 технических экспертиз)",
-          "контроль исполнительных команд на объектах ведения разработок и эксплуатации систем и комплексов, своевременное выявление и устранение технических неисправностей"
+          "разработка технической документации и ведение проектов в государственной структуре оборонно-промышленного комплекса (разработала и ввела в эксплуатацию 48 документов по 6 проектам в соответствии с ГОСТ, РД и ЕСКД (ТЗ, ТУ, РЭ, ПС, УТП и т.д.);",
+          "комплексная работа с организациями-заказчиками и организациями-подрядчиками по разработке и корректировке ТЗ, анализу и планированию трудозатрат на выполнение работ;",
+          "организация и проведение комплексных технических экспертиз КД и ТД в соответствии с ГОСТ и РВ (организовала и провела 12 технических экспертиз);",
+          "контроль исполнительных команд на объектах ведения разработок и эксплуатации систем и комплексов, своевременное выявление и устранение технических неисправностей."
         ]
       }
     ]
