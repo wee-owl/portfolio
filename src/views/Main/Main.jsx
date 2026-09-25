@@ -16,10 +16,10 @@ function Main() {
         isScreen1024 ? 
         <>
           <Avatar data={getData("avatar")}/>
-          <Section data={getData("experience")}/>
-          <Section data={getData("skills")}/>
-          <Section data={getData("projects")}/>
           <Section data={getData("about")}/>
+          <Section data={getData("skills")}/>
+          <Section data={getData("experience")}/>
+          <Section data={getData("projects")}/>
           <Section data={getData("education")}/>
           <Section data={getData("language")}/>
           <Section data={getData("contacts")}/>

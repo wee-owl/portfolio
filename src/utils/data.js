@@ -4,7 +4,7 @@ const data = [
     isNav: false,
     photo: require("#assets/photo.png"),
     name: "Елена Коробова",
-    position: "Frontend-разработчик"
+    position: "Frontend-разработчик (React)"
   },
   {
     id: "about",
@@ -12,7 +12,7 @@ const data = [
     title: "о себе",
     icon: "about",
     content: {
-      text: "Работала инженером-разработчиком в компании оборонно-промышленного комплекса. Сменила сферу деятельности на программирование. Прошла профессиональную переподготовку по курсу «Frontend-разработчик с нуля» в Нетологии.\nВ рамках учебных проектов занималась разработкой клиентской части веб-приложений, создавала соответствующую макетам внешнюю оболочку сайта, настраивала рабочий функционал и связывала его с бэкендом.\nУмею решать локальные задачи, которые хорошо декомпозированы и укладываются в принятые в проекте соглашения и архитектурные принципы. Хорошо знаю основной инструментарий – HTML, CSS, JavaScript. Уверенно владею React на уровне, который позволяет решать абсолютное большинство стандартных задач, связанных с интерфейсами.\nУмею ясно излагать свои мысли в письменной и устной форме и понимаю важность проактивности для командной работы. Я постоянно расширяю свои профессиональные компетенции во frontend-разработке."
+      text: "Frontend-разработчик с коммерческим опытом от 2 лет по созданию клиентской части на React + TypeScript. Обладаю практическим опытом бэкенд-разработки на Node.js и проектирования реляционных (PostgreSQL) и нереляционных (MongoDB) баз данных. Самостоятельно реализовывала фичи от верстки интерфейса до проектирования API и схемы БД."
     }
   },
   {
@@ -22,12 +22,12 @@ const data = [
     icon: "skills",
     content: [
       {
-        title: "stack",
-        array: ["react", "react\u00A0router", "typescript", "javascript", "css", "html", "node.js", "jest", "markdown"]
+        title: "Технический стек",
+        array: ["react", "react\u00A0router", "redux toolkit", "typescript", "javascript", "node.js"]
       },
       {
-        title: "tools",
-        array: ["webpack", "git", "github", "vs code", "figma", "photoshop"]
+        title: "Программные средства",
+        array: ["vite", "webpack", "git", "docker", "postgresql", "sequelize", "mongodb", "mongoose"]
       }
     ]
   },
@@ -42,21 +42,21 @@ const data = [
         cover: require("#assets/cover-railway.png"),
         link: "https://github.com/wee-owl/fe-diploma"
       },
-      {
-        title: "chaos organizer",
-        cover: require("#assets/cover-organizer.png"),
-        link: "https://github.com/wee-owl/chaos-organizer"
-      },
+      // {
+      //   title: "chaos organizer",
+      //   cover: require("#assets/cover-organizer.png"),
+      //   link: "https://github.com/wee-owl/chaos-organizer"
+      // },
       {
         title: "like trello",
         cover: require("#assets/cover-trello.png"),
         link: "https://github.com/wee-owl/ahj_dnd_like_trello"
       },
-      {
-        title: "help desk",
-        cover: require("#assets/cover-helpdesk.png"),
-        link: "https://github.com/wee-owl/ahj_http_helpdesk"
-      },
+      // {
+      //   title: "help desk",
+      //   cover: require("#assets/cover-helpdesk.png"),
+      //   link: "https://github.com/wee-owl/ahj_http_helpdesk"
+      // },
       {
         title: "goblin game",
         cover: require("#assets/cover-goblin.png"),
@@ -67,21 +67,21 @@ const data = [
         cover: require("#assets/cover-tetris.png"),
         link: "https://github.com/wee-owl/Tetris"
       },
-      {
-        title: "your meal",
-        cover: require("#assets/cover-yourmeal.png"),
-        link: "https://github.com/wee-owl/your_meal"
-      },
+      // {
+      //   title: "your meal",
+      //   cover: require("#assets/cover-yourmeal.png"),
+      //   link: "https://github.com/wee-owl/your_meal"
+      // },
       {
         title: "songbird quiz",
         cover: require("#assets/cover-songbird.png"),
         link: "https://github.com/wee-owl/quiz"
       },
-      {
-        title: "photo stream",
-        cover: require("#assets/cover-photostream.png"),
-        link: "https://github.com/wee-owl/Photo-Stream"
-      },
+      // {
+      //   title: "photo stream",
+      //   cover: require("#assets/cover-photostream.png"),
+      //   link: "https://github.com/wee-owl/Photo-Stream"
+      // },
       {
         title: "pomodoro",
         cover: require("#assets/cover-pomodoro.png"),
@@ -92,16 +92,16 @@ const data = [
         cover: require("#assets/cover-zoo.png"),
         link: "https://github.com/wee-owl/online-zoo"
       },
-      {
-        title: "barbershop",
-        cover: require("#assets/cover-barbershop.png"),
-        link: "https://github.com/wee-owl/barbershop"
-      },
-      {
-        title: "money exchange service",
-        cover: require("#assets/cover-moneyexchange.png"),
-        link: "https://github.com/wee-owl/Money_exchange_service"
-      },
+      // {
+      //   title: "barbershop",
+      //   cover: require("#assets/cover-barbershop.png"),
+      //   link: "https://github.com/wee-owl/barbershop"
+      // },
+      // {
+      //   title: "money exchange service",
+      //   cover: require("#assets/cover-moneyexchange.png"),
+      //   link: "https://github.com/wee-owl/Money_exchange_service"
+      // },
       {
         title: "shelter",
         cover: require("#assets/cover-shelter.png"),
@@ -127,26 +127,29 @@ const data = [
     content: [
       {
         position: "Frontend-разработчик",
-        period: "05.2022 – н.в.",
-        company: "ООО «Нетология»",
-        title: "Некоторые учебные проекты",
+        period: "08.2024 – н.в.",
+        company: "Институт навигационных технологий",
+        title: "",
         text: [
-          "Railway Booking System.\nОписание: SPA на React для сервиса покупки билетов на ж/д, свёрстанное по макетам в Figma, в котором в качестве API используется внешний сервер.\nСтек: React, React Router, Context API, Hooks, ESLint.",
-          "Chaos Organizer.\nОписание: Приложение-бот, предназначенное для создания сообщений, загрузки изображений, аудио, видео, текстовых файлов (drag&drop), а также их скачивания.\nСтек: клиент - JavaScript, Webpack, Babel, ESLint; сервер - Express, Body-parser, CORS.",
-          "Goblin Game.\nОписание: Игра, где в рандомной ячейке каждую секунду появляется гоблин, если пользователь успел за это время кликнуть на него, то засчитывается +1 балл, если пользователь пропустил 5 появлений гоблинов, то игра завершается.\nСтек: JavaScript, Webpack, Babel, ESLint.",
-          "Online ZOO.\nОписание: Двухстраничный сайт (main и donate) с каталогом диких животных и возможностью выбора пожертвования для внесения.\nСтек: JavaScript, CSS, HTML."
+          "В рамках работы над созданием проекта внутрикорпоративного портала госорганизации отвечала за фронтенд-часть на React (+TypeScript) и бэкенд-часть в рамках архитектуры БД и обработки запросов (API).",
+          "Разработала справочник компании (50+ подразделений) со сквозным поиском с использованием Redux Toolkit, рекурсивной отрисовки дерева из плоского массива API и роутинга карточек сотрудников через useParams.",
+          "Спроектировала модуль визуального редактора оргструктуры: реализовала компонент ZoomArea с обработкой MouseEvent и WheelEvent, рекурсивную отрисовку иерархии и двустороннюю синхронизацию состояния узлов с Redux Toolkit.",
+          "Реализовала end-to-end сервис оформления командировок: 9 этапов последовательного и параллельного согласования с сохранением состояния в store, а также рендер шаблонов документов на базе React-PDF.",
+          "В рамках программы импортозамещения перевела архитектуру портала с MongoDB на PostgreSQL, разработала реляционную модель данных с нуля, переписав 30+ коллекций.",
+          "Внедрила Sequelize ORM в бекэнд на Node.js, переписала 20+ моделей БД с обеспечением двусторонней связи (через .belongsTo и .hasMany), настроила систему миграций (Sequelize CLI) и сидирования данных.",
+          "Оптимизировала docker-compose.yml для микросервисов: внедрила healthchecks, автоматизировала миграции, сидинг СУБД (npx sequelize-cli) и импорт бэкапов через volume-скрипты. Время подготовки окружения первичного запуска сокращено до двух команд без необходимости ручного импорта.",
         ]
       },
       {
-        position: "Инженер-разработчик",
-        period: "07.2014 – 09.2021",
-        company: "АО «Концерн «Моринсис-Агат», г. Москва",
-        title: "Задачи/достижения",
+        position: "Ведущий специалист",
+        period: "07.2014 – 07.2024",
+        company: "Концерн «Моринформсиситема – Агат»",
+        title: "",
         text: [
-          "разработка технической документации и ведение проектов в государственной структуре оборонно-промышленного комплекса (разработала и ввела в эксплуатацию 48 документов по 6 проектам в соответствии с ГОСТ, РД и ЕСКД (ТЗ, ТУ, РЭ, ПС, УТП и т.д.);",
-          "комплексная работа с организациями-заказчиками и организациями-подрядчиками по разработке и корректировке ТЗ, анализу и планированию трудозатрат на выполнение работ;",
-          "организация и проведение комплексных технических экспертиз КД и ТД в соответствии с ГОСТ и РВ (организовала и провела 12 технических экспертиз);",
-          "контроль исполнительных команд на объектах ведения разработок и эксплуатации систем и комплексов, своевременное выявление и устранение технических неисправностей."
+          "Разработала и внедрила 48 документов (ТЗ, ТУ, РЭ, ПС, УТП и т.д.) по 6 проектам в соответствии с ГОСТ, РД и ЕСКД в рамках выполнения ГОЗ.",
+          "Подготовила и провела 12 комплексных технических экспертиз КД и ТД как внутри компании, так и при приемке систем у организаций-контрагентов.",
+          "Обеспечила полный цикл ведения 4 проектов по ГОЗ: от разработки ТЗ до сдачи этапов Заказчик.",
+          "Обеспечивала своевременное выявление и устранение технических неисправностей систем на объектах Заказчикаисполнительных команд на объектах ведения разработок и эксплуатации систем и комплексов, своевременное выявление и устранение технических неисправностей.",
         ]
       }
     ]
@@ -200,16 +203,6 @@ const data = [
     icon: "contacts",
     content: [
       {
-        social: "github",
-        icon: "github",
-        link: "https://github.com/wee-owl/"
-      },
-      {
-        social: "discord",
-        icon: "discord",
-        link: "https://discordapp.com/users/@lienone"
-      },
-      {
         social: "email",
         icon: "email",
         link: "mailto:kem-cv@yandex.ru"
@@ -218,7 +211,17 @@ const data = [
         social: "telegram",
         icon: "telegram",
         link: "https://t.me/emkorobova"
-      }
+      },
+      {
+        social: "github",
+        icon: "github",
+        link: "https://github.com/wee-owl/"
+      },
+      // {
+      //   social: "discord",
+      //   icon: "discord",
+      //   link: "https://discordapp.com/users/@lienone"
+      // },
     ]
   }
 ];

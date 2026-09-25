@@ -15,8 +15,12 @@
 
 .avatar__title, 
 .avatar__subtitle {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
+}
+
+.avatar__title {
+  font-size: 30px;
 }
